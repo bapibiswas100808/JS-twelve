@@ -1,0 +1,408 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600;700;800&display=swap");
+
+/* Bg Color
+bg color: EF6C57
+text color: 391400
+heading color: 391400
+sub heading color: EF6D58
+
+*/
+
+/* Basic CSS */
+body {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 400;
+  background-color: #fdf0e9;
+}
+
+/* Header Area CSS */
+.header-area {
+  background-color: #28293e;
+  padding: 15px 0;
+}
+.header-area .navbar {
+  padding: 0;
+}
+.header-area .nav-item {
+  margin: 0 40px;
+}
+.header-area .nav-link {
+  color: white;
+}
+.header-area .navbar-nav .nav-item:last-child {
+  margin-right: 0;
+}
+.header-area .navbar-nav .nav-item:last-child a {
+  border: 1px solid rgba(255, 255, 255, 0.64);
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+
+/* Hero area CSS */
+.hero-area {
+  background-color: #28293e;
+  min-height: calc(100vh - 88px);
+  padding: 100px 0;
+}
+.hero-text {
+  margin-right: 100px;
+}
+.hero-text h3 {
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ef6d58;
+}
+.hero-text h2 {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 80px;
+  letter-spacing: -2px;
+  color: #ffffff;
+}
+
+.hero-text p {
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.hero-text a {
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #ededed;
+  text-decoration: none;
+}
+.hero-text a span {
+  background: #ef6d58;
+  padding: 20px 25px;
+  border-radius: 6px;
+}
+
+/* Service area CSS */
+.service-area {
+  padding: 85px 0;
+}
+.service-area .section-heading {
+  margin-bottom: 55px;
+}
+
+.service-area .section-heading h3 {
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ef6d58;
+}
+.service-area .section-heading h2 {
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #391400;
+}
+.service-area .single-service {
+  padding: 50px;
+  border: 1px solid #f3d1bf;
+}
+.service-area .service-one {
+  border-radius: 6px 0px 0px 6px;
+}
+.service-area .service-two {
+  border-radius: 0px 6px 6px 0px;
+  border-left: none;
+}
+.service-heading {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.service-heading i {
+  font-size: 25px;
+  color: #ededed;
+  background-color: #ef6d58;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+.service-heading h3 {
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
+.service-text p {
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+}
+.service-text a {
+  text-decoration: none;
+  color: #391400;
+  display: inline-block;
+  padding-left: 55px;
+  position: relative;
+  padding-top: 12px;
+}
+.service-text a::after {
+  position: absolute;
+  content: "\2b";
+  height: 45px;
+  width: 45px;
+  background-color: #ffffff;
+  left: 0;
+  top: 0;
+  line-height: 45px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 50%;
+  color: #ef6d58;
+  border: 1px solid rgba(255, 255, 255, 0.64);
+}
+
+/* Contact Area CSS */
+.contact-area {
+  padding: 85px 0;
+  background-color: #28293e;
+}
+.contact-area .section-heading h3 {
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ef6d58;
+}
+.contact-area .section-heading h2 {
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #391400;
+}
+.contact-area .section-heading p {
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.64);
+}
+.contact-area .contact-form {
+  padding: 50px;
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+.contact-area .contact-form h3 {
+  padding-bottom: 20px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #391400;
+}
+.contact-area .contact-form button {
+  background-color: #ef6d58;
+  color: #ffffff;
+  text-transform: uppercase;
+  display: block;
+}
+.contact-area .contact-form input {
+  border: 1px solid #f3d1bf;
+  border-radius: 6px;
+}
+.contact-area .contact-form textarea {
+  border: 1px solid #f3d1bf;
+  border-radius: 6px;
+}
+
+.contact-area .contact-text ul {
+  padding-left: 0;
+}
+.contact-area .contact-text ul li {
+  padding: 10px 0;
+}
+
+.contact-area .contact-text ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+.contact-area .contact-text ul li a i {
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  background-color: #ef6d58;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+}
+.contact-area .contact-text ul li a p {
+  margin-bottom: 0;
+  padding-left: 20px;
+  color: #ffffff;
+}
+
+/* Footer area CSS */
+.footer-area {
+  padding: 25px 0;
+}
+.footer-area p {
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+  margin-bottom: 0;
+}
+.footer-link a {
+  text-decoration: none;
+  color: rgba(57, 20, 0, 0.64);
+  padding-left: 70px;
+}
+
+@media (max-width: 1199px) {
+  .hero-text h2 {
+    font-size: 55px;
+  }
+  .service-area .section-heading h2 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  .header-area .navbar-toggler {
+    box-shadow: none !important;
+    border: none;
+    background-color: #ffffff;
+  }
+  .header-area .navbar-nav .nav-item:last-child {
+    margin-left: 0;
+  }
+  .hero-area {
+    padding: 45px 0;
+  }
+  .hero-text {
+    margin-right: 0px;
+    padding-bottom: 50px;
+  }
+  .hero-text h3 {
+    padding-bottom: 0 !important;
+    text-align: center;
+  }
+  .hero-text h2 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .hero-text a {
+    display: block;
+    text-align: center;
+  }
+  .hero-text a span {
+    padding: 10px 15px;
+  }
+  .service-area .section-heading h2 {
+    font-size: 50px;
+  }
+  .service-area .service-one {
+    border-radius: 6px 6px 0px 0px;
+  }
+  .service-area .service-two {
+    border-top: none;
+    border-radius: 0px 0px 6px 6px;
+    border-left: 1px solid #f3d1bf;
+  }
+  .contact-area {
+    padding: 60px 0 0 0;
+  }
+  .contact-text {
+    margin-top: 30px;
+  }
+  .contact-area .section-heading h2 {
+    font-size: 40px;
+  }
+  .footer-area {
+    padding: 5px 0;
+  }
+  .footer-area p {
+    font-size: 14px;
+  }
+  .footer-link a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 575px) {
+  .header-area .navbar-nav .nav-item:last-child a {
+    border: none;
+  }
+  .hero-area {
+    text-align: center;
+  }
+  .hero-text h2 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .service-area {
+    padding: 30px 0;
+  }
+  .service-area .section-heading h2 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .service-area .section-heading {
+    margin-bottom: 25px;
+  }
+  .service-heading i {
+    font-size: 14px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .service-text a::after {
+    height: 25px;
+    width: 25px;
+    left: 15px;
+    top: 10px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 25px;
+  }
+  .contact-area {
+    text-align: center;
+  }
+  .contact-area .section-heading h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: -1px;
+  }
+  .contact-area .contact-form {
+    padding: 30px;
+  }
+  .contact-area .contact-text ul li a {
+    display: flex;
+    justify-content: center;
+  }
+  .contact-area .contact-text ul li a p {
+    padding-left: 0;
+  }
+  .contact-area .contact-text ul li a i {
+    margin-right: 20px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+  }
+  .footer-text p {
+    font-size: 13px;
+  }
+  .footer-link a {
+    font-size: 13px;
+    padding-left: 0;
+    padding-right: 20px;
+  }
+}
