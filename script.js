@@ -28,12 +28,12 @@ submitButton.addEventListener("click", function () {
     messageField.value = "";
     submitText.innerText = "Form Sumitted Succesfully!";
     console.log(nameValue, emailValue, messageValue);
-    // emailjs.send(
-    //   "service_fmuoobf",
-    //   "template_zuf2zpu",
-    //   templateParams,
-    //   "4N_z4c-ySbObriCiv"
-    // );
+    emailjs.send(
+      "service_fmuoobf",
+      "template_zuf2zpu",
+      templateParams,
+      "4N_z4c-ySbObriCiv"
+    );
   } else {
     errorText.innerHTML = "Please Fill the Form Correctly!";
     submitText.innerText = "";
