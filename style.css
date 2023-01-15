@@ -275,7 +275,8 @@ body {
   .header-area .navbar-toggler {
     box-shadow: none !important;
     border: none;
-    background-color: #ffffff;
+    background-color: #ef6d58;
+    padding: 6px;
   }
   .header-area .navbar-nav .nav-item:last-child {
     margin-left: 0;
